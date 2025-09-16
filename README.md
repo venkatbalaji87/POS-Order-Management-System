@@ -18,12 +18,13 @@ Designed for food trucks and small businesses that need to keep working even wit
 ##  Project Structure
 
 src/
-├── components/ # UI components (Catalog, Cart, Header, Modal, etc.)
-├── data/ # Core logic (OfflineDataStore, PrintJobManager, SyncEngine, Realtime)
-├── hooks/ # Custom hooks (e.g., usePersistentCart for cart persistence in IndexedDB)
-├── App.jsx # Main application entry
-├── index.css # Global styles
-└── main.jsx # React + Vite bootstrap
+- **components** UI components (Catalog, Cart, Header, Modal, etc.)
+- **data** Core logic (OfflineDataStore, PrintJobManager, SyncEngine, Realtime)
+- **hooks** Custom hooks (e.g., usePersistentCart for cart persistence in IndexedDB)
+- **App.jsx** Main application entry
+- **index.css** Global styles
+- **main.jsx** React + Vite bootstrap
+
 ---
 
 ## 📦 Installation
